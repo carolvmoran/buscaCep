@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    overflow: hidden;
+}
+.navbar {
+    background-color: #F5F3F0;
+    border-bottom: 1px solid #FFD400;
+    justify-content: flex-start !important;
+}
+.navbar-nav {
+    background-color: #F5F3F0;
+    width: 240px;
+    height: 555px;
+}
+button.navButtonIcon {
+    border: none;
+}
+button.navButtonIcon:focus {
+    padding: 2px;
+    border: 1px solid rgb(206, 141, 22);  
+}
+img.navIcon {
+    width: 35px;
+}
+img.logo {
+    width: 125px;
+    margin-left: 20px;
+}
+li.nav-item {
+    padding-left: 16px !important;
+    
+}
+li.navDisabled {
+    border-bottom: 1px solid #95959c;
+    color: black;
+    font-weight: bold;
+    padding: 16px !important;
+}
+li.nav-item a {
+    color: #0071AD;
+}
+li.nav-item a:hover {
+    color: rgb(206, 141, 22);
+}
