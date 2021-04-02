@@ -1,0 +1,14 @@
+.breadcrumb {
+    padding: .75rem 1rem !important;
+    background-color: transparent !important;
+}
+.breadcrumb-item+.breadcrumb-item::before {
+    content: var(--bs-breadcrumb-divider, ">") !important;
+}
+input.form-control {
+    width: 430px;
+}
+table {
+    margin-top: 20px;
+    width: 80% !important;
+}

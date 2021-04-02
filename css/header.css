@@ -11,7 +11,7 @@ body {
     border-bottom: 1px solid #FFD400;
     justify-content: flex-start !important;
 }
-.navbar-nav {
+.navbar-collapse {
     background-color: #F5F3F0;
     width: 240px;
     height: 555px;
